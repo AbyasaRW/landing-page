@@ -111,7 +111,7 @@ export default function LandingPage() {
             Hubungi saya sekarang untuk diskusi gratis dan dapatkan website sesuai kebutuhan bisnis Anda.
           </p>
           <a
-            href="https://wa.me/62085158304429?text=Halo%20saya%20tertarik%20dengan%20layanan%20pembuatan%20website%20Anda.%20Bisakah%20kita%20diskusi%20lebih%20lanjut?"
+            href="https://wa.me/62085158304429?text=Halo%20saya%20tertarik%20memek%20layanan%20pembuatan%20website%20Anda.%20Bisakah%20kita%20diskusi%20lebih%20lanjut?"
             className="bg-white text-black px-8 py-4 rounded-2xl font-semibold shadow-lg hover:opacity-90 transition"
           >
             Chat via WhatsApp
