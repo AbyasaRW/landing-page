@@ -5,20 +5,20 @@ export default function LandingPage() {
     <div className="min-h-screen bg-gradient-to-b from-gray-50 to-white text-gray-800">
       {/* HERO */}
       <section className="py-24 px-6">
-        <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-center">
+        <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div>
             <motion.h1
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6 }}
-              className="text-4xl md:text-5xl font-bold leading-tight mb-6"
+              className="text-3xl sm:text-4xl md:text-5xl font-bold leading-tight mb-6"
             >
               Website Profesional Tanpa Ribet Hosting
             </motion.h1>
             <p className="text-lg text-gray-600 mb-8">
               Anda beli domain & hosting sendiri. Saya bantu desain, coding, dan setup sampai website online dan siap digunakan.
             </p>
-            <div className="flex gap-4">
+            <div className="flex flex-col sm:flex-row gap-4">
               <a
                 href="#pricing"
                 className="bg-black text-white px-8 py-4 rounded-2xl shadow-xl hover:opacity-90 transition"
@@ -34,13 +34,24 @@ export default function LandingPage() {
             </div>
           </div>
 
-          <div className="bg-white p-8 rounded-3xl shadow-2xl">
-            <div className="space-y-4">
-              <div className="h-4 bg-gray-200 rounded w-3/4"></div>
-              <div className="h-4 bg-gray-200 rounded w-1/2"></div>
-              <div className="h-32 bg-gray-100 rounded-2xl"></div>
-              <div className="h-10 bg-black rounded-xl w-1/3"></div>
+          <div className="text-center md:text-center">
+            <div className="rounded-3xl shadow-2xl overflow-hidden hover:scale-105 transition duration-300">
+              <a
+                href="https://serrasa.vercel.app/" /*ganti nama web*/
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img 
+                src="/image.png" /*tergantung nama file*/
+                alt="Preview Website"
+                className="w-full"
+                />
+              </a>
             </div>
+
+            <p className="text-sm text-gray-500 mt-3">
+              Klik preview untuk melihat website.
+            </p>
           </div>
         </div>
       </section>
@@ -50,7 +61,7 @@ export default function LandingPage() {
         <div className="max-w-6xl mx-auto text-center">
           <h2 className="text-3xl font-semibold mb-12">Layanan</h2>
 
-          <div className="grid md:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
             {[
               {
                 title: "Web Design Modern",
@@ -82,7 +93,7 @@ export default function LandingPage() {
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-3xl font-semibold mb-12">Paket Harga</h2>
 
-          <div className="bg-black text-white p-12 rounded-3xl shadow-2xl">
+          <div className="bg-black text-white p-8 md:p-12 rounded-3xl shadow-2xl">
             <h3 className="text-2xl font-bold mb-4">Landing Page Profesional</h3>
             <p className="text-5xl font-bold mb-8">Rp 1.500.000</p>
 
@@ -94,7 +105,9 @@ export default function LandingPage() {
             </ul>
 
             <a
-              href="#contact"
+              href="https://wa.me/62085158304429?text=Halo%20saya%20tertarik%20memesan%20landing%20page%20website"
+              target="_blank"
+              rel="noopener noreferrer"
               className="bg-white text-black px-8 py-4 rounded-2xl font-semibold hover:opacity-90 transition"
             >
               Pesan Sekarang
